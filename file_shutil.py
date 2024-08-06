@@ -27,7 +27,7 @@ shutil.disk_usage(path) повертає статистику використа
 '''
 import shutil
 
-shutil.unpack_archive(filename, extract_dir=None, format=None)
+# shutil.unpack_archive(filename, extract_dir=None, format=None)
 
 import shutil
 
@@ -40,3 +40,8 @@ shutil.copy(source_file, destination_dir)
 source_dir = '/path/to/source/directory'
 destination_dir = '/path/to/destination/directory'
 shutil.copytree(source_dir, destination_dir)
+
+#================================
+archive = shutil.make_archive('backup', 'zip', 'Temp/')
+print(archive)
+shutil.unpack_archive(archive, 'New_folder')
