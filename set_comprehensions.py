@@ -11,3 +11,9 @@ odd_squares = {x**2 for x in range(1, 10) if x % 2 != 0}
 print(odd_squares)
 
 # {1, 9, 81, 49, 25}
+
+
+odd_squares = {x**2 for x in range(1, 10) if x % 2 != 0}
+print(odd_squares)
+
+# {1, 9, 81, 49, 25}
