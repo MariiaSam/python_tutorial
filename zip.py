@@ -14,3 +14,10 @@ for number, letter in zip(list1, list2):
 стигла вишня
 червоний томат
 '''
+
+
+myTuple = ("John", "Peter", "Vicky")
+
+x = "#".join(myTuple)
+
+print(x)
