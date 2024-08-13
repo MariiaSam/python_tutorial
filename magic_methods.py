@@ -1,4 +1,10 @@
-'''__len__(self) # Довжина
+'''
+
+https://minhhh.github.io/posts/a-guide-to-pythons-magic-methods
+
+ __init__(self) відповідає за ініціалізацію об'єкта
+
+__len__(self) # Довжина
 
 __getitem__(self, key) # Синатксис доступу за ключем (container[key])
 
