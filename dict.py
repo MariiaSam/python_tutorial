@@ -21,3 +21,20 @@ print(my_dict)
 
 print("name" in my_dict)
 print("age" in my_dict)
+
+# ==============================
+
+a = {'name': 'Mariia','name_2': 'Lev', 'city': 'New York', 'email': 'alice@example.com' }
+
+del a["email"]
+print(a) # {'name': 'Mariia', 'name_2': 'Lev', 'city': 'New York'}
+
+a['name_3'] = 'Oleg'
+print(a) # {'name': 'Mariia', 'name_2': 'Lev', 'city': 'New York', 'name_3': 'Oleg'}
+
+a['name_3'] = 'Jon'
+print(a) # {'name': 'Mariia', 'name_2': 'Lev', 'city': 'New York', 'name_3': 'Jon'}
+
+print("email" in a) # False
+
+

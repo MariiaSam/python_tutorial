@@ -14,4 +14,11 @@ gender = my_dict.get("gender")  # Поверне None, оскільки "gender"
 '''
 my_dict = {"name": "Alice", "age": 25}
 name = my_dict["name"]  # Поверне 'Alice'
-gender = my_dict["gender"]  # Викличе KeyError, оскільки "gender" немає в словнику
+# gender = my_dict["gender"]  # Викличе KeyError, оскільки "gender" немає в словнику
+
+# ===========================
+
+a = {'name': 'Mariia','name_2': 'Lev', 'name_3': 'Jon', 'city': 'New York', 'email': 'alice@example.com' }
+
+b = a.get('name_2')
+print(b) # Lev

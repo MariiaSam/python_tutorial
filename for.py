@@ -62,3 +62,31 @@ for char in user_input:
 # Виведення результатів
 print(f"Загальна кількість символів у рядку: {total_chars}")
 print(f"Кількість пробілів у рядку: {space_count}")
+
+# ========================
+
+example = "Hello, World"
+a = 1
+y = 3
+
+for i in example:
+    if y <= a:
+        print(i)
+    else:
+        print('No')
+        
+        '''
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+        
+        '''
