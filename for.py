@@ -90,3 +90,28 @@ No
 No
         
         '''
+        
+a_input = input("Input string: ") # Підрахунок загальної кількості символів та окремо кількості пробілів за допомоги циклу for та оператору if
+
+total_c = len(a_input)
+count = 0
+
+for i in a_input:
+    if i == " ":
+        count +=1
+
+print(f"Count of str {total_c}") # Count of str 106
+print(f"Count of space {count}") # Count of space 14
+
+
+# ========================
+
+for i in range(0, 10, 2):
+    print(i) 
+    
+''' 
+0
+2
+4
+6
+8'''
