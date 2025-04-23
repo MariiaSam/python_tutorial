@@ -37,4 +37,39 @@ print(a) # {'name': 'Mariia', 'name_2': 'Lev', 'city': 'New York', 'name_3': 'Jo
 
 print("email" in a) # False
 
+# ==============================
 
+b = {'name': 'Mariia','name_2': 'Lev', 'city': 'New York', 'email': 'alice@example.com' }
+
+d = {}
+
+for key in b:
+    print(key)
+'''
+name
+name_2
+city
+email
+'''
+
+for key in b:
+    d[key] = b[key]
+    print(d)
+
+'''
+{'name': 'Mariia'}
+{'name': 'Mariia', 'name_2': 'Lev'}
+{'name': 'Mariia', 'name_2': 'Lev', 'city': 'New York'}
+{'name': 'Mariia', 'name_2': 'Lev', 'city': 'New York', 'email': 'alice@example.com'}
+'''
+
+# ==============================
+for key, value in b.items():
+    print(key, value)
+
+'''
+name Mariia
+name_2 Lev
+city New York
+email alice@example.com
+'''
