@@ -31,3 +31,5 @@ result_square = operations['square'](5)  # 25
 
 print(result_add)  
 print(result_square)  
+
+# ==========================
